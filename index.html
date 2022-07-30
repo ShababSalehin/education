@@ -6,6 +6,7 @@
     <title>Education</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f3c3c759d6.js" crossorigin="anonymous"></script>
   </head>
   <body>
 <header class="container">
@@ -42,7 +43,7 @@
         </div>
       </nav>
       <!-- Slider Start -->
-<section class="mt-5">
+<section class="my-5">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -93,15 +94,15 @@
 <!-- courses section start -->
 <section class="my-5">
    <div>
-    <div class="text-center my-5">
+    <div class="text-center py-5">
         <h3>Discover our Popular Cources</h3>
         <p>Interesting IT cources with a lot of learning elements.</p>
     </div>
     <div class="container">
     
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
             <div class="col">
-                <div class="card" style="max-width: 540px;">
+                <div class="card" >
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="images/slide1.jpg" class="img-fluid rounded-start h-100" alt="...">
@@ -117,7 +118,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="max-width: 540px;">
+                <div class="card">
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="images/card2.jpg" class="img-fluid rounded-start h-100" alt="...">
@@ -133,7 +134,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="max-width: 540px;">
+                <div class="card">
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="images/card3.jpg" class="img-fluid rounded-start h-100" alt="...">
@@ -149,7 +150,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="max-width: 540px;">
+                <div class="card d-none d-lg-block">
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="images/card4.jpg" class="img-fluid rounded-start h-100" alt="...">
@@ -165,7 +166,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="max-width: 540px;">
+                <div class="card d-none d-lg-block">
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="images/card5.jpg" class="img-fluid rounded-start h-100" alt="...">
@@ -181,7 +182,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="max-width: 540px;">
+                <div class="card d-none d-lg-block">
                     <div class="row g-0">
                       <div class="col-md-4">
                         <img src="images/card6.jpg" class="img-fluid rounded-start h-100" alt="...">
@@ -197,18 +198,224 @@
                 </div>
             </div>
         </div>
-        <div class="text-center">
-        <button type="button" class="btn btn-primary mt-3">See More Cources</button>
+        <div class="text-center pb-5">
+        <button type="button" class="btn btn-primary mt-3"><b>See More Cources</b></button>
     </div>
    </div>
 
 </section>
 <!-- courses section end -->
+
+<!-- Ready to Join section start -->
+<section class="container my-5">
+<div class="d-flex align-items-center flex-xl-row flex-lg-row flex-md-column justify-content-md-center align-items-md-center flex-sm-column justify-content-sm-center align-items-sm-center bg-primary rounded" style="--bs-bg-opacity: .7;">
+<div class="col-8 text-start px-5 py-5">
+<h3 class="text-white text-md-center text-sm-center text-lg-start pb-3">Ready to Join?</h3>
+<p class="text-white text-md-center text-sm-center text-lg-start ">
+    Design, implement, and evaluate a computing-based solution to meet a given set of computing requirements in the context of the program's discipline.
+</p>
+</div>
+<div class="col-4 text-center ">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-light text-primary my-5" data-bs-toggle="modal" data-bs-target="#modalRegisterForm">
+<b>Register Now</b>  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="orangeForm-name" class="form-control validate">
+          <label data-bs-error="wrong" data-bs-success="right" for="orangeForm-name">Your name</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="orangeForm-email" class="form-control validate">
+          <label data-bs-error="wrong" data-bs-success="right" for="orangeForm-email">Your email</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="password" id="orangeForm-pass" class="form-control validate">
+          <label data-bs-error="wrong" data-bs-success="right" for="orangeForm-pass">Your password</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button type="button" class="btn btn-primary mt-3"><b>Register</b></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Ready to join section end -->
+
+
+<!-- Frequently Asked Question section start -->
+<section class="container w-50 my-5">
+   
+    <div class="text-center my-5">
+        <h3>Frequently Asked Questions</h3>
+        <p>Here the commonly asked questions are given with their answers</p>
+    </div>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <h2 class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+What are the Semantic tags?</h2>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>Semantic HTML is the use of HTML markup to reinforce the semantics</strong>, or meaning, of the information in web pages and web applications rather than merely to define its presentation or look. Semantic HTML is processed by traditional web browsers as well as by many other user agents.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              What are the differences between Flex and Grid?
+            </h2>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+<strong>Grid is made for two-dimensional layout while Flexbox is for one.</strong> This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario. GRID gives you more flexibility to move around the blocks irrespective of your HTML markup.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <h2 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                What are the differences between Bootstrap and Tailwind?
+            </h2>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+               <strong>"Responsiveness"</strong> is the primary reason why developers consider Bootstrap over the competitors, whereas <STRONG>"Highly customizable"</STRONG> was stated as the key factor in picking Tailwind CSS.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <h2 class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                What is CSS Box Model?
+            </h2>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+                The CSS box model is essentially a box that wraps around every HTML element. It consists of: <strong>margins, borders, paddingg</strong>, and the actual content. The CSS box model refers to how HTML elements are modeled in browser engines and how the dimensions of those HTML elements are derived from CSS properties. It is a fundamental concept for the composition of HTML webpages.
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+    <!-- Frequently Asked Question section end -->
+
+<!-- Trusted Company Section start -->
+<section class="my-5">
+<h2 class="text-center py-5">Trusted by over 500+ Companies</h2>
+<div class="client-logo-area client-logo-one pt-0">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-3 col-6">
+             <div class="single-client text-center">
+                <img src="https://cdn.ayroui.com/1.0/images/client-logo/graygrids.svg" alt="Logo" />
+             </div>
+          </div>
+          <div class="col-md-3 col-6">
+             <div class="single-client text-center">
+                <img src="https://cdn.ayroui.com/1.0/images/client-logo/uideck.svg" alt="Logo" />
+             </div>
+          </div>
+          <div class="col-md-3 col-6">
+             <div class="single-client text-center">
+                <img src="https://cdn.ayroui.com/1.0/images/client-logo/ayroui.svg" alt="Logo" />
+             </div>
+          </div>
+          <div class="col-md-3 col-6">
+             <div class="single-client text-center">
+                <img src="https://cdn.ayroui.com/1.0/images/client-logo/lineicons.svg" alt="Logo" />
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>    
+</section>
+<!-- Trusted Company Section end -->
+
 </main>
 
-<footer>
+<footer class="footer-20192">
+    <div class="site-section">
+      <div class="container">
 
-</footer>
+        <div class="cta d-block d-md-flex align-items-center px-5">
+          <div>
+            <h2 class="mb-0">Try to explore more</h2>
+            <h3 class="text-dark">Let's get started!</h3>
+          </div>
+          <div class="ms-lg-auto">
+            <a href="#" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-sm">
+            <a href="#" class="footer-logo">Shabab IT EDU</a>
+            <p class="copyright">
+              <small>&copy;2022|All Rights Reserved</small>
+            </p>
+          </div>
+          <div class="col-sm">
+            <h3>Customers</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Buyer</a></li>
+              <li><a href="#">Supplier</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h3>Company</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h3>Further Information</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Follow us</h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com/Auddhaya.Shabab/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/shabab-salehin/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ShababSalehin/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/ShababSalehin1/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
